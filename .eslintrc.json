@@ -12,8 +12,7 @@
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:react/recommended",
-        "prettier",
-        "react-hooks"
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -27,7 +26,7 @@
     ],
     "rules": {
         "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deeps": "warn",
-        "react/react-in-jsx-scope": "off",
+        "react-hooks/exhaustive-deps": "warn",
+        "react/react-in-jsx-scope": "off", // para trabalhar com NextJS apenas
         "prettier/prettier": "error"
     }}
